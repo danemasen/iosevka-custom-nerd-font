@@ -1,0 +1,50 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaCustom.variants]
+  inherits = "ss05"
+
+    [buildPlans.IosevkaCustom.variants.design]
+    one = "no-base"
+    two = "curly-neck-serifless"
+    three = "two-arcs"
+    four = "semi-open-serifless"
+    five = "upright-arched-serifless"
+    six = "straight-bar"
+    seven = "straight-serifless-crossbar"
+    zero = "dotted"
+    capital-k = "symmetric-touching-serifless"
+    i = "serifed-flat-tailed"
+    j = "serifed"
+    l = "tailed-serifed"
+    lower-pi = "tailed"
+    cyrl-el = "straight"
+    diacritic-dot = "round"
+    tilde = "low"
+    asterisk = "turn-hex-low"
+    underscore = "low"
+    caret = "high"
+    ascii-grave = "straight"
+    ascii-single-quote = "straight"
+    paren = "flat-arc"
+    brace = "curly-flat-boundary"
+    guillemet = "curly"
+    number-sign = "slanted-open-tall"
+    percent = "rings-continuous-slash-also-connected"
+    bar = "natural-slope"
+    question = "smooth"
+    pilcrow = "high"
+    partial-derivative = "curly-bar"
+    lig-neq = "more-slanted-dotted"
+    lig-equal-chain = "without-notch"
+    lig-hyphen-chain = "without-notch"
+    lig-plus-chain = "without-notch"
+    lig-double-arrow-bar = "without-notch"
+    lig-single-arrow-bar = "without-notch"
+
+  [buildPlans.IosevkaCustom.ligations]
+  inherits = "dlig"
